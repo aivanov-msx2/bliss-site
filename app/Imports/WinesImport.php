@@ -28,9 +28,6 @@ class WinesImport implements ToCollection, WithHeadingRow
     {
         foreach ($rows as $row) 
         {
-
-            // TODO: Quit here. Test bulk editing more thoroughly.
-
             $bottleSize = $this->bottleSizes->where('ml', $row['bottle_size'])->first();
             $wineType = $this->wineTypes->where('name', $row['wine_type'])->first();
             $packSize = $this->packSizes->where('bottles', $row['pack_size'])->first();

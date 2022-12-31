@@ -35,6 +35,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/pdf/pricebook/wholesale',      [PdfController::class, 'pricebookWholesale'])->name('pdf.pricebook.wholesale');
     Route::get('/csv/wine/download',      [CsvController::class, 'csvWineDownload'])->name('csv.wine.download');
     Route::put('/csv/wine/upload',      [CsvController::class, 'csvWineUpload'])->name('csv.wine.upload');
+    Route::get('/csv/prices/download',      [CsvController::class, 'csvPricesDownload'])->name('csv.prices.download');
+    Route::put('/csv/prices/upload',      [CsvController::class, 'csvPricesUpload'])->name('csv.prices.upload');
 });
 
 Route::middleware('auth')->group(function () {

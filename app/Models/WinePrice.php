@@ -9,7 +9,11 @@ class WinePrice extends Model
 {
     use HasFactory;
 
-        /* Pivot Table */
+    protected $fillable = [
+        'wine_id',
+        'price_type_id',
+        'price',
+    ];
 
         protected $table = 'wine_price';
 
