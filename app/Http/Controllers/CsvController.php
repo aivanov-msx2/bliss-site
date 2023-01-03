@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Wine;
 use App\Exports\WinesExport;
 use App\Exports\WinePricesExport;
+use App\Exports\EcommerceExport;
 use App\Imports\WinesImport;
 use App\Imports\WinePricesImport;
 use Illuminate\Http\Request;
@@ -113,5 +114,31 @@ class CsvController extends Controller
         }
     }
    
+
+
+    /**
+     * Download a CSV file of eCommerce Inventory
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function csvECommerceDownload()
+    {
+        try {
+
+            $filename = "ecommerce-inventory-" . date('Ymdhi') . ".csv";
+            
+            return (new EcommerceExport)->download($filename);
+       
+        } catch (\Exception $error) {
+
+            dd($error);
+
+            Log::info("Error generating csv file: ");
+            Log::info($error);
+
+            return redirect()->back()->with('error', 'Sorry, there was an error generating the file. Check logs for details.');
+
+        }
+    }
 
 }

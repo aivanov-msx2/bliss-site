@@ -36,6 +36,7 @@ return new class extends Migration
             $table->float('alc')->nullable();
             $table->float('ph')->nullable();
             $table->string('sugar')->default('dry')->nullable();
+            $table->string('acid')->nullable();
             $table->string('tannin')->nullable();
             $table->string('ta')->nullable();
             $table->string('rs')->nullable();

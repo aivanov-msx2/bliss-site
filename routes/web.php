@@ -37,6 +37,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::put('/csv/wine/upload',      [CsvController::class, 'csvWineUpload'])->name('csv.wine.upload');
     Route::get('/csv/prices/download',      [CsvController::class, 'csvPricesDownload'])->name('csv.prices.download');
     Route::put('/csv/prices/upload',      [CsvController::class, 'csvPricesUpload'])->name('csv.prices.upload');
+    Route::get('/csv/ecommerce/download',      [CsvController::class, 'csvECommerceDownload'])->name('csv.ecommerce.download');
 });
 
 Route::middleware('auth')->group(function () {

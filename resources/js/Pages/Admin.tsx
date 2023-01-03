@@ -41,6 +41,8 @@ export default function Admin(props) {
     const btnClass =
         "inline-block mt-3 text-white bg-black rounded-full p-2 px-5";
 
+    const lightBtnClass = "bg-blue-700";
+
     return (
         <AuthenticatedLayout
             auth={props.auth}
@@ -87,6 +89,24 @@ export default function Admin(props) {
                         </div>
                     </div>
 
+                    <div className="bg-white dark:bg-gray-700 overflow-hidden shadow-sm sm:rounded-lg">
+                        <div className="p-6 text-gray-900">
+                            <h2 className="dark:text-gray-200">
+                                eCommerce Inventory
+                            </h2>
+                            <ul>
+                                <li className="mb-4">
+                                    <a
+                                        href={route("csv.ecommerce.download")}
+                                        className="ml-4 text-gray-700 dark:text-gray-300 underline"
+                                    >
+                                        Download eCommerce CSV
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
                     <div className="bg-white dark:bg-gray-700 overflow-hidden shadow-sm sm:rounded-lg mt-6">
                         <div className="p-6 text-gray-900">
                             <h2 className="dark:text-gray-200 mb-0">Wines</h2>
@@ -94,7 +114,7 @@ export default function Admin(props) {
                                 <li className="mb-2">
                                     <a
                                         href={route("csv.wine.download")}
-                                        className={btnClass}
+                                        className={`${btnClass} ${lightBtnClass}`}
                                     >
                                         Download All Wines CSV
                                     </a>
@@ -116,7 +136,7 @@ export default function Admin(props) {
                                 <form onSubmit={submit}>
                                     <input
                                         type="file"
-                                        className="block mt-3 text-white bg-gray-500 rounded-full p-2 px-5"
+                                        className="block mt-3 text-white bg-gray-400 rounded-full p-2 px-5"
                                         onChange={(e) => {
                                             if (e.target?.files?.[0]) {
                                                 setData(
@@ -142,7 +162,7 @@ export default function Admin(props) {
                                 <li className="mb-2">
                                     <a
                                         href={route("csv.prices.download")}
-                                        className={btnClass}
+                                        className={`${btnClass} ${lightBtnClass}`}
                                     >
                                         Download All Prices CSV
                                     </a>
@@ -164,7 +184,7 @@ export default function Admin(props) {
                                 <form onSubmit={submitPrices}>
                                     <input
                                         type="file"
-                                        className="block mt-3 text-white bg-gray-500 rounded-full p-2 px-5"
+                                        className="block mt-3 text-white bg-gray-400 rounded-full p-2 px-5"
                                         onChange={(e) => {
                                             if (e.target?.files?.[0]) {
                                                 setData(

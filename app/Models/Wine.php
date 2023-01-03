@@ -30,6 +30,7 @@ class Wine extends Model
         'alc',
         'ph',
         'sugar',
+        'acid',
         'tannin',
         'ta',
         'rs',
