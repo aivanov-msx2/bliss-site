@@ -32,4 +32,4 @@ env_variables:
   DB_SOCKET: "/cloudsql/southern-sol-364603:us-central1:bliss-db-instance-001"
 
 beta_settings:
-cloud_sql_instances: "southern-sol-364603:us-central1:bliss-db-instance-001"
+  cloud_sql_instances: "southern-sol-364603:us-central1:bliss-db-instance-001"
