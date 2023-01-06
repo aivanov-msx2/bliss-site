@@ -21,6 +21,14 @@ env_variables:
     APP_DEBUG: true
     APP_ENV: production
     APP_KEY: base64:vllrxfneF+o0fs7IxLj/0Iw0YSuF/N6WpYj8uPt4evI=
-    APP_NAME: "Bliss Wine Concierge"
+    APP_NAME: "Bliss Wine Imports"
 
     LOG_LEVEL: debug
+
+    DB_DATABASE: bliss-db-instance-001
+    DB_USERNAME: root
+    DB_PASSWORD:
+    DB_SOCKET: '/cloudsql/southern-sol-364603:us-central1:bliss-db-instance-001'
+
+beta_settings:
+cloud_sql_instances: 'southern-sol-364603:us-central1:bliss-db-instance-001'
