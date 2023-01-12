@@ -9,7 +9,7 @@ import { resolvePageComponent } from "laravel-vite-plugin/inertia-helpers";
 
 const appName =
     window.document.getElementsByTagName("title")[0]?.innerText ||
-    "Bliss Wine Concierge";
+    "Bliss Wine Imports";
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,

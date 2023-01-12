@@ -136,8 +136,8 @@
         </tr>
     </table>
 
-<p class="copyrightLeft">Bliss Wine Concierge</p>
-<p class="copyrightRight">www.blisswineconcierge.com</p>
+<p class="copyrightLeft">Bliss Wine Imports</p>
+<p class="copyrightRight">www.blisswineimports.com</p>
 
 
 

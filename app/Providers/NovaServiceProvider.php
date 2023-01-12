@@ -36,7 +36,7 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
         
         Nova::mainMenu(function (Request $request) {
             return [
-                MenuSection::make('Bliss Wine Concierge', [
+                MenuSection::make('Bliss Wine Imports', [
                     MenuItem::externalLink('Home', '/'),
                     MenuItem::externalLink('Admin', '/admin'),
                 ])->icon('home'),

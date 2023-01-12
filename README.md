@@ -1,3 +1,3 @@
-## About bliss-wine-concierge
+## About bliss-site
 
 To Do...

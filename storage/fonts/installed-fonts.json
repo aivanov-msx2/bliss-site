@@ -1,18 +1,18 @@
 {
     "dejavu sans light": {
-        "normal": "\/Users\/eringeyer\/Development\/_personal\/bliss-wine-concierge\/vendor\/dompdf\/dompdf\/lib\/fonts\/DejaVuSans-ExtraLight"
+        "normal": "/Users/eringeyer/Development/_personal/bliss-site/vendor/dompdf/dompdf/lib/fonts/DejaVuSans-ExtraLight"
     },
     "dejavu sans condensed": {
-        "bold": "\/Users\/eringeyer\/Development\/_personal\/bliss-wine-concierge\/vendor\/dompdf\/dompdf\/lib\/fonts\/DejaVuSansCondensed-Bold",
-        "bold_italic": "\/Users\/eringeyer\/Development\/_personal\/bliss-wine-concierge\/vendor\/dompdf\/dompdf\/lib\/fonts\/DejaVuSansCondensed-BoldOblique",
-        "italic": "\/Users\/eringeyer\/Development\/_personal\/bliss-wine-concierge\/vendor\/dompdf\/dompdf\/lib\/fonts\/DejaVuSansCondensed-Oblique",
-        "normal": "\/Users\/eringeyer\/Development\/_personal\/bliss-wine-concierge\/vendor\/dompdf\/dompdf\/lib\/fonts\/DejaVuSansCondensed"
+        "bold": "/Users/eringeyer/Development/_personal/bliss-site/vendor/dompdf/dompdf/lib/fonts/DejaVuSansCondensed-Bold",
+        "bold_italic": "/Users/eringeyer/Development/_personal/bliss-site/vendor/dompdf/dompdf/lib/fonts/DejaVuSansCondensed-BoldOblique",
+        "italic": "/Users/eringeyer/Development/_personal/bliss-site/vendor/dompdf/dompdf/lib/fonts/DejaVuSansCondensed-Oblique",
+        "normal": "/Users/eringeyer/Development/_personal/bliss-site/vendor/dompdf/dompdf/lib/fonts/DejaVuSansCondensed"
     },
     "dejavu serif condensed": {
-        "bold": "\/Users\/eringeyer\/Development\/_personal\/bliss-wine-concierge\/vendor\/dompdf\/dompdf\/lib\/fonts\/DejaVuSerifCondensed-Bold",
-        "bold_italic": "\/Users\/eringeyer\/Development\/_personal\/bliss-wine-concierge\/vendor\/dompdf\/dompdf\/lib\/fonts\/DejaVuSerifCondensed-BoldItalic",
-        "italic": "\/Users\/eringeyer\/Development\/_personal\/bliss-wine-concierge\/vendor\/dompdf\/dompdf\/lib\/fonts\/DejaVuSerifCondensed-Italic",
-        "normal": "\/Users\/eringeyer\/Development\/_personal\/bliss-wine-concierge\/vendor\/dompdf\/dompdf\/lib\/fonts\/DejaVuSerifCondensed"
+        "bold": "/Users/eringeyer/Development/_personal/bliss-site/vendor/dompdf/dompdf/lib/fonts/DejaVuSerifCondensed-Bold",
+        "bold_italic": "/Users/eringeyer/Development/_personal/bliss-site/vendor/dompdf/dompdf/lib/fonts/DejaVuSerifCondensed-BoldItalic",
+        "italic": "/Users/eringeyer/Development/_personal/bliss-site/vendor/dompdf/dompdf/lib/fonts/DejaVuSerifCondensed-Italic",
+        "normal": "/Users/eringeyer/Development/_personal/bliss-site/vendor/dompdf/dompdf/lib/fonts/DejaVuSerifCondensed"
     },
     "nexa": {
         "normal": "nexa_normal_a1b467fba402c34ea496844788eff9f2"

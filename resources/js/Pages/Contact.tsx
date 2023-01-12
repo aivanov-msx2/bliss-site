@@ -11,8 +11,8 @@ export default function Contact(props) {
             <MainContentContainer>
                 <h2>Email</h2>
                 <p>
-                    <Link href="mailto:info@blisswineconcierge.com">
-                        info@blisswineconcierge.com
+                    <Link href="mailto:info@blisswineimports.com">
+                        info@blisswineimports.com
                     </Link>
                 </p>
             </MainContentContainer>
