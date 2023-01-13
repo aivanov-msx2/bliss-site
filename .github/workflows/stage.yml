@@ -11,7 +11,7 @@ jobs:
       - name: Get the latest code
         uses: actions/checkout@v2.3.2
       - name: 📂 Setup Git Remote
-        run: git config ssh://dh_jq6dx5@bliss-stage-01.dreamhosters.com/home/dh_jq6dx5/bliss-stage-01.dreamhosters.com/git/bliss-site.git >&- || git remote add stage
+        run: git config remote.stage.ssh://dh_jq6dx5@bliss-stage-01.dreamhosters.com/home/dh_jq6dx5/bliss-stage-01.dreamhosters.com/git/bliss-site.git >&- || git remote add stage
       - name: 📂 Git Push
         run: git push stage stage
       # - name: Copy .env
