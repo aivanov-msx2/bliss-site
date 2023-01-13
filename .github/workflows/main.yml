@@ -11,7 +11,7 @@ jobs:
       - name: Get the latest code
         uses: actions/checkout@v2.3.2
       - name: 📂 Setup Git Remote
-        run: git config remote.prod.ssh://dh_88y9nu@andiva16.dreamhosters.com/home/dh_88y9nu/bliss-stage-01.dreamhosters.com/git/bliss-site.git >&- || git remote add prod
+        run: git remote add prod ssh://dh_88y9nu@andiva16.dreamhosters.com/home/dh_88y9nu/andiva16.dreamhosters.com/git/bliss-site.git
       - name: 📂 Git Push
         run: git push prod main
       # - name: Copy .env
