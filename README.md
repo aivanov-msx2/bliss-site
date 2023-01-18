@@ -1,12 +1,14 @@
 # `bliss-site`
 
+## URL and Login Info
+
 Stage site:
 
 [bliss-stage-01.dreamhosters.com](http://bliss-stage-01.dreamhosters.com)
 
 _Note: This site will be slow because it is using the dreamhosters.com domain_
 
----
+#
 
 User accounts have been setup for:
 
@@ -17,20 +19,68 @@ User accounts have been setup for:
 
 You will need to use the "Forgot Password" link to reset your passwords.
 
----
+#
 
-## How to make updates/changes
+## Laravel / PHP / React / Typescript
+
+The site uses Laravel (v.9) which is a PHP framework. I suggest doing some Laravel tutorials to get up to speed on these features:
+
+-   routing
+-   models, views, controllers
+-   mysql database interaction
+
+The views (pages) use Typescript-based React files. There is a `.tsx` file for each page of the site, located here:
+
+`resources/js/Pages`
+
+For CSS, we use Tailwind. It is suggested to use Tailwind's classes (use `className` in React) to control styling, instead of writing custom css styles.
+
+#
+
+## Content Management
+
+The content manager uses the Nova framework (part of Laravel).
+
+[https://nova.laravel.com/](https://nova.laravel.com/)
+
+Add whatever email addresses you need to be able to use Nova in gate() to this file (I have already added Andrey and Gabriel):
+
+`app/Providers/NovaServiceProvider.php`
+
+#
+
+## Database
+
+The database has already been migrated and seeded. Any changes to the strucutre of the database can be performed by creating new migration files, pushing them to the server, and then running:
+
+```
+php artisan migrate
+```
+
+After you have finished getting all the content complete on the stage site, we will need to export the stage database and import it into a production database.
+
+#
+
+## How to make updates
+
+First, you will need to clone the repository:
+
+```
+git clone ssh://dh_jq6dx5@bliss-stage-01.dreamhosters.com/home/dh_jq6dx5/bliss-stage-01.dreamhosters.com/git/bliss-site.git
+```
 
 There are currently 2 git branches:
 
 -   main
 -   stage
 
+#
+
 ## `stage` branch
 
-The `stage` branch is what should be updated when making updates and changes.
+The `stage` branch is what should be updated first whenever making updates to the code.
 
-The following will commit changes to the `stage` branch and push them to the `stage` remote respository hosted on the bliss-stage-01.dreamhosters.com server of dreamhost. You may need to `git pull` changes from stage first, in case you are not the only developer working on the repo:
+Run the following commands locally to commit changes to the `stage` branch and push them to the `stage` remote respository hosted on the bliss-stage-01.dreamhosters.com server of dreamhost. You should always `git pull` changes from stage first, in case you are not the only developer working on the repo:
 
 ```
 git pull stage stage
@@ -39,13 +89,17 @@ git commit -m "Example message about changes that have been made."
 git push stage stage
 ```
 
-A production server has not yet been set up on dreamhost. First, I suggest getting everything finished and all the content updated on `stage` first.
+The SSH user you will need to use with git on the stage server is: `dh_jq6dx5`
+
+#
 
 ## `main` branch
 
-_The `prod` remote server has not been created yet, so don't do the following until after creation and setup._
+_The `prod` remote server has not been created on dreamhost yet, so don't do the following until after creation and setup. First, I suggest getting everything finished and all the content updated on `stage` first._
 
-After all work is completed on `stage` branch, locally merge `stage` into `main`.
+_The `main` branch should never been worked on directly. Only perform work on stage. Then, when you are sure the changes are good, merge them into the `main` branch and push it to the prod server._
+
+After all work is completed and tested on `stage` branch, locally merge `stage` into `main` and push to the prod server.
 
 ```
 git pull stage stage
