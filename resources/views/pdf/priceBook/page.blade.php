@@ -211,8 +211,8 @@
             padding-top: 0;
             border: 10px solid #eee;
             width: auto;
-            max-height: 160px;
-            max-width: 80px
+            max-height: 220px;
+            max-width: 150px
         }
 
         .secondaryData {
@@ -330,7 +330,7 @@
                         </td>    
                         <td style="width: 100%; padding-bottom: 30px;">
                             <p class="data-item data-item--wine data-item--wine--first heavy">@if(isset($wine->vintage)){!! $wine->vintage !!}. @endif @if(isset($wine->name))"{!! $wine->name !!}"@endif</p>
-                            <p class="data-item data-item--wine"><span class="inline-header">Appelation:</span> {!! $wine->appellation !!}</p>
+                            <p class="data-item data-item--wine"><span class="inline-header">Appellation:</span> {!! $wine->appellation !!}</p>
                             <p class="data-item data-item--wine"><span class="inline-header">Grapes:</span> {!! $wine->getGrapesString() !!}</p>
                             <p class="data-item data-item--wine"><span class="inline-header">Profile:</span> @if(isset($wine->text_profile)){!! $wine->text_profile !!} @elseif(isset($wine->text_profile)) {!! $wine->text_profile !!} @endif</p>
                             @if(isset($wine->alc))<p class="data-item data-item--wine"><span class="inline-header">Alc: </span>{!! $wine->alc !!}%</p>@endif
