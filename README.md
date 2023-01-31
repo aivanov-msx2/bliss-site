@@ -17,8 +17,6 @@ User accounts have been setup for:
 
 [http://bliss-stage-01.dreamhosters.com/login](http://bliss-stage-01.dreamhosters.com/login)
 
-You will need to use the "Forgot Password" link to reset your passwords.
-
 #
 
 ## Laravel / PHP / React / Typescript
@@ -107,3 +105,24 @@ git checkout main
 git merge stage
 git push prod main
 ```
+
+#
+
+## Running the site locally
+
+1. Go into the `bliss-site` directory.
+2. Run this command:
+
+```
+php artisan serve
+```
+
+3. Open another terminal window, and go into the `bliss-site` directory again.
+4. Run this command:
+
+```
+npm run dev
+```
+
+5. Setup a local MySQL database and add the database settings to your local .env file.
+6. You should now be able to run the site locally at `http://localhost:8000`
