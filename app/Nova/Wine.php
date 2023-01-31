@@ -58,6 +58,7 @@ class Wine extends Resource
             Boolean::make('Public (Web)', 'public_wineclub')->sortable()->rules('required'),
             Boolean::make('Show FOB in DPB', 'show_fob_in_pb')->sortable()->rules('required'),
             Text::make('Slug')->hideFromIndex()->rules('required'),
+            Text::make('appellation')->hideFromIndex()->nullable(),
             BelongsTo::make('Winery')->sortable()->rules('required'),
             Number::make('Sort Order')->sortable()->hideFromIndex()->rules('required'),
             BelongsTo::make('Bottle Size', 'bottleSize')->sortable()->hideFromIndex()->rules('required'),
