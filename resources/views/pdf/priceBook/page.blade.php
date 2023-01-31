@@ -189,7 +189,7 @@
 
         p.data-item.data-item--wine.data-item--wine--first {
             margin-top: 0;
-            margin-bottom: 3px;
+            margin-bottom: 6px;
             text-align: left;
             font-size: 0.7rem;
         }
