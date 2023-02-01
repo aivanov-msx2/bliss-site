@@ -25,10 +25,10 @@
         <table class="logo-table">
             <tr>
                 <td>
-                    @if(isset($wine->data_alc))<p><span>Alc:</span> {!! $wine->data_alc !!}%</p>@endif
-                    @if(isset($wine->data_sulfur))<p><span>Sulfur:</span> {!! $wine->data_sulfur !!}</p>@endif
-                    @if(isset($wine->data_vineyard_age))<p><span>Vineyard Age:</span> {!! $wine->data_vineyard_age !!}</p>@endif
-                    @if(isset($wine->data_case_production))<p><span>Production Size:</span> {!! $wine->data_case_production !!}</p>@endif
+                    @if(isset($wine->alc))<p><span>Alc:</span> {!! $wine->alc !!}%</p>@endif
+                    @if(isset($wine->sulfur))<p><span>Sulfur:</span> {!! $wine->sulfur !!}</p>@endif
+                    @if(isset($wine->vineyard_age_years))<p><span>Vineyard Age:</span> {!! $wine->vineyard_age_years !!}</p>@endif
+                    @if(isset($wine->production_size))<p><span>Production Size:</span> {!! $wine->production_size !!}</p>@endif
                 </td>
                 <td class="logo-td">
                     <img class="logo" src="{!! public_path() !!}/assets/img/logo-for-print.jpg" alt="">
