@@ -104,15 +104,15 @@
                     <img src="{!! $wineImg !!}" style="width: 180px; margin-top: -60px; border: 10px solid #fff;" alt=""/>
                     @endif
 
-                    @if($wine->data_alc)<p class="data-item"><span class="header">Alc:</span> {!! $wine->data_alc !!}%</p>@endif
-                    @if($wine->data_ph)<p class="data-item"><span class="header">PH:</span> {!! $wine->data_ph !!}</p>@endif
-                    @if($wine->data_ta)<p class="data-item"><span class="header">TA:</span> {!! $wine->data_ta !!}</p>@endif
-                    @if($wine->data_rs)<p class="data-item"><span class="header">RS:</span> {!! $wine->data_rs !!}</p>@endif
-                    @if($wine->data_sulfur)<p class="data-item"><span class="header">Sulfur:</span> {!! $wine->data_sulfur !!}</p>@endif
-                    @if($wine->data_soil)<p class="data-item"><span class="header">Soil:</span> {!! $wine->data_soil !!}</p>@endif
-                    @if($wine->data_altitude)<p class="data-item"><span class="header">Altitude:</span> {!! $wine->data_altitude !!}</p>@endif
-                    @if($wine->data_vineyard_age)<p class="data-item"><span class="header">Vineyard Age:</span> {!! $wine->data_vineyard_age !!}</p>@endif
-                    @if($wine->data_case_production)<p class="data-item"><span class="header">Production Size:</span> {!! $wine->data_case_production !!}</p>@endif
+                    @if($wine->alc)<p class="data-item"><span class="header">Alc:</span> {!! $wine->alc !!}%</p>@endif
+                    @if($wine->ph)<p class="data-item"><span class="header">PH:</span> {!! $wine->ph !!}</p>@endif
+                    @if($wine->ta)<p class="data-item"><span class="header">TA:</span> {!! $wine->ta !!}</p>@endif
+                    @if($wine->rs)<p class="data-item"><span class="header">RS:</span> {!! $wine->rs !!}</p>@endif
+                    @if($wine->sulfur)<p class="data-item"><span class="header">Sulfur:</span> {!! $wine->sulfur !!}</p>@endif
+                    @if($wine->soil)<p class="data-item"><span class="header">Soil:</span> {!! $wine->soil !!}</p>@endif
+                    @if($wine->altitude)<p class="data-item"><span class="header">Altitude:</span> {!! $wine->altitude !!}</p>@endif
+                    @if($wine->vineyard_age_years)<p class="data-item"><span class="header">Vineyard Age:</span> {!! $wine->vineyard_age_years !!}</p>@endif
+                    @if($wine->production_size)<p class="data-item"><span class="header">Production Size:</span> {!! $wine->production_size !!}</p>@endif
                     @if($wine->text_pairing)<p class="data-item"><span class="header">Pairing:</span> {!! $wine->text_pairing !!}</p>@endif
 
                 </div>
