@@ -119,6 +119,11 @@ class Wine extends Model
         return $this->getPriceById(8);
     }
 
+    public function getFOBPrice()
+    {
+        return $this->getPriceById(9);
+    }
+
     public function getPriceById($id)
     {
         $pricePivotEntry = $this->prices()->where('price_type_id', $id)->first();

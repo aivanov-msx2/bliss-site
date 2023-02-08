@@ -351,17 +351,6 @@
                         </td>
                     </tr>
                     @endforeach
-                    
-                    @if($bookType === "distributor")
-                    <tr>
-                        <td colspan="3">
-                            <p class="footnote">* If we arrange transportation on your behalf, we will do so winery door to your warehouse door for a cost of $30 per case of 12. This fee includes temperature controlled shipping from start to finish as well as all taxes, tariffs, duties, and administrative fees. While we always have a delivery goal of 90-105 days from the time a purchase order is received, from time to time circumstances out of our control may arise to delay a shipment. Please advise us of any time restrictions or deadlines when submitting the purchase order.</p>
-                            @if($country['name'] === "France")
-                                <p class="footnote">** French wines only: tariffs are included in the Transport Arranged price, but NOT in the ex-cellar price.</p>
-                            @endif
-                        </td>
-                    </tr>
-                    @endif
                     </table>
                 @endif
                 
