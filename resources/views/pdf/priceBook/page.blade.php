@@ -189,7 +189,7 @@
 
         p.data-item.data-item--wine.data-item--wine--first {
             margin-top: 0;
-            margin-bottom: 3px;
+            margin-bottom: 6px;
             text-align: left;
             font-size: 0.7rem;
         }
@@ -211,8 +211,8 @@
             padding-top: 0;
             border: 10px solid #eee;
             width: auto;
-            max-height: 160px;
-            max-width: 80px
+            max-height: 220px;
+            max-width: 150px
         }
 
         .secondaryData {
@@ -330,6 +330,7 @@
                         </td>    
                         <td style="width: 100%; padding-bottom: 30px;">
                             <p class="data-item data-item--wine data-item--wine--first heavy">@if(isset($wine->vintage)){!! $wine->vintage !!}. @endif @if(isset($wine->name))"{!! $wine->name !!}"@endif</p>
+                            <p class="data-item data-item--wine"><span class="inline-header">Appellation:</span> {!! $wine->appellation !!}</p>
                             <p class="data-item data-item--wine"><span class="inline-header">Grapes:</span> {!! $wine->getGrapesString() !!}</p>
                             <p class="data-item data-item--wine"><span class="inline-header">Profile:</span> @if(isset($wine->text_profile)){!! $wine->text_profile !!} @elseif(isset($wine->text_profile)) {!! $wine->text_profile !!} @endif</p>
                             @if(isset($wine->alc))<p class="data-item data-item--wine"><span class="inline-header">Alc: </span>{!! $wine->alc !!}%</p>@endif
@@ -350,17 +351,6 @@
                         </td>
                     </tr>
                     @endforeach
-                    
-                    @if($bookType === "distributor")
-                    <tr>
-                        <td colspan="3">
-                            <p class="footnote">* If we arrange transportation on your behalf, we will do so winery door to your warehouse door for a cost of $30 per case of 12. This fee includes temperature controlled shipping from start to finish as well as all taxes, tariffs, duties, and administrative fees. While we always have a delivery goal of 90-105 days from the time a purchase order is received, from time to time circumstances out of our control may arise to delay a shipment. Please advise us of any time restrictions or deadlines when submitting the purchase order.</p>
-                            @if($country['name'] === "France")
-                                <p class="footnote">** French wines only: tariffs are included in the Transport Arranged price, but NOT in the ex-cellar price.</p>
-                            @endif
-                        </td>
-                    </tr>
-                    @endif
                     </table>
                 @endif
                 
