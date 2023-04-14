@@ -81,7 +81,7 @@ class Wine extends Model
     {
         $grapes = "";
         foreach($this->grapes as $key => $grape){
-            $grapes .=  $grape->name;
+            $grapes .=  $grape->pivot->percentage . "% " . $grape->name;
             if($key < count($this->grapes)-1 ) {
                 $grapes .= ", ";
             }
