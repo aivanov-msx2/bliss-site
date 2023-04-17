@@ -1,1 +1,0 @@
-import{M as o,a as r}from"./MainContentContainer.8c5e64a7.js";import{j as t,a as e,H as i}from"./app.578bd237.js";import"./ApplicationLogo.c4dc3ee9.js";import"./ResponsiveNavLink.dc259663.js";import"./index.m.4f4de470.js";function h(n){const a="Wholesale";return t(o,{header:a,children:[e(i,{title:a}),e(r,{children:e("p",{children:a})})]})}export{h as default};
