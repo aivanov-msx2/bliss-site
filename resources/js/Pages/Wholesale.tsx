@@ -9,8 +9,8 @@ export default function Wholesale(props) {
         <MainLayout header={title}>
             <Head title={title} />
             <MainContentContainer>
-                <p className="max-w-lg pb-6 mx-auto">
-<p><b>California:</b>
+                <div className="max-w-lg pb-6 mx-auto">
+<p><b>California:</b></p>
 
 <p>Andrey Ivanov, MS - President/CEO - andrey@blisswineimports.com - 314.799.5899 (NorCal Sales)</p>
 <p>Ben Herod- SF Sales- bbherod@gmail.com 415.308.2266</p>
@@ -19,6 +19,7 @@ export default function Wholesale(props) {
 
 <p><b>Missouri:</b></p>
 <p>James Hallett: Breakthru Beverage: jhallett@breakthrubeverage.com (314) 575-3528</p>
+                </div>
             </MainContentContainer>
         </MainLayout>
     );
