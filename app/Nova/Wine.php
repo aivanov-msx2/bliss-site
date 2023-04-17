@@ -79,7 +79,7 @@ class Wine extends Resource
             Textarea::make('Winemaking', 'text_winemaking')->alwaysShow()->nullable(),
             Textarea::make('More about the wine', "text_more_about_the_wine")->alwaysShow()->nullable(),
             Textarea::make('Pairing Options', "text_pairing")->alwaysShow()->nullable(),
-            Textarea::make('More Pairing Options', "text_pairing_2")->alwaysShow()->nullable(),
+            Textarea::make('Complimentary Cuisines', "text_pairing_2")->alwaysShow()->nullable(),
             Image::make('image file (500 x 750)', 'image_file')->disk('managed_content')->nullable(),
             BelongsToMany::make('Grapes')->fields(function () {
                 return [

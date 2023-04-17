@@ -110,7 +110,7 @@ class WineController extends Controller
             ['title' => 'Vineyard Age', 'value' => $wine->vineyard_age_years],
             ['title' => 'Production Size', 'value' => $wine->production_size],
             ['title' => 'Pairing Options', 'value' => $wine->text_pairing],
-            ['title' => 'More Pairing Options', 'value' => $wine->text_pairing_2],
+            ['title' => 'Complimentary Cuisines', 'value' => $wine->text_pairing_2],
         ];
 
         return Inertia::render('Wines/Wine', [
