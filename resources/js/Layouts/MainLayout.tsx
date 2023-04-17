@@ -61,12 +61,15 @@ export default function MainLayout({
                                 >
                                     Wholesale
                                 </NavLink>
-                                <NavLink
-                                    href="https://store.blisswineconcierge.com/Wine-Club"
-                                    active={route().current("wineclub")}
-                                >
+                                <a href="https://store.blisswineconcierge.com/Wine-Club">
                                     Wine Club
-                                </NavLink>
+                                </a>
+                                <a href="https://www.blisswineconcierge.com/home/wine-club/">
+                                    Featured This Month
+                                </a>
+                                <a href="https://store.blisswineconcierge.com/store">
+                                    Buy Wine Now
+                                </a>
                             </div>
                         </div>
 
