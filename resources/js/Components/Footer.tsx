@@ -46,7 +46,7 @@ export default function Footer() {
                             </li>
                             <li className={liClasses}>
                                 <Link
-                                    href={route("contact")}
+                                    href="mailto:andrey@blisswineconcierge.com"
                                     className={linkClasses}
                                 >
                                     Contact Us
@@ -55,12 +55,8 @@ export default function Footer() {
                         </ul>
                         <div>
                             <p className="text-white my-3 md:my-0">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Praesentium atque
-                                reprehenderit sapiente reiciendis voluptas natus
-                                voluptates. Magnam eos nulla architecto hic enim
-                                culpa facilis dolorem nisi, aliquam blanditiis
-                                eius. Natus?.
+                                Mission Statement:
+Bliss Wine Imports, led by Master Sommelier Andrey Ivanov, scours the world for unique perspectives on wine and the stories it tells. For us, wine represents a culmination of our shared human experience through the ages. We seek to tell that story in an approachable but thoughtful way by venturing to the planet's most beautiful and least trodden wine regions. Join the club & start your journey!
                             </p>
                         </div>
                     </div>
