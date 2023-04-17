@@ -6,7 +6,7 @@
 <tr>
     <td class="alignRight secondaryData tableData">
         @if(floor((float)($wine->getFOBPrice())))
-            ${!! number_format(floor((float)($wine->getFOBPrice() * $wine->packSize->bottles)), 2, '.', '') !!}
+            ${!! number_format(($wine->getFOBPrice()), 2, '.', '') !!}
         @else
             -
         @endif

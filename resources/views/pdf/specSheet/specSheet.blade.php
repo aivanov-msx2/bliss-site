@@ -114,6 +114,7 @@
                     @if($wine->vineyard_age_years)<p class="data-item"><span class="header">Vineyard Age:</span> {!! $wine->vineyard_age_years !!}</p>@endif
                     @if($wine->production_size)<p class="data-item"><span class="header">Production Size:</span> {!! $wine->production_size !!}</p>@endif
                     @if($wine->text_pairing)<p class="data-item"><span class="header">Pairing:</span> {!! $wine->text_pairing !!}</p>@endif
+                    @if($wine->text_pairing_2)<p class="data-item"><span class="header">Complimentary Cuisines:</span> {!! $wine->text_pairing_2 !!}</p>@endif
 
                 </div>
             </td>
