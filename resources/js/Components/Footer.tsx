@@ -10,7 +10,7 @@ export default function Footer() {
         <>
             <div className="sm:px-6 lg:px-8 py-8 bg-gray-500">
                 <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
-                    <div className="grid md:grid-cols-2 md:gap-4">
+                    <div className="grid md:grid-cols-3 md:gap-4">
                         <ul className="grid md:grid-rows-3 md:grid-flow-col md:gap-x-4 content-start">
                             <li className={liClasses}>
                                 <Link
@@ -48,13 +48,19 @@ export default function Footer() {
                                 <a href="mailto:andrey@blisswineconcierge.com"
                                     className={linkClasses}
                                 >
-                                    Contact Us
+                                    Contact: andrey@blisswineconcierge.com
                                 </a>
                             </li>
                         </ul>
                         <div>
                             <p className="text-white my-3 md:my-0">
-                                Mission Statement:<br/>
+                            2200 West Valley Blvd.<br/>
+                            Alhambra, CA 91803<br/>
+                            <a href="mailto:info@blisswineconcierge.com">info@blisswineconcierge.com</a><br/>
+                            415.579.3379</p>
+                        </div>
+                        <div>
+                            <p className="text-white my-3 md:my-0">
 Bliss Wine Imports, led by Master Sommelier Andrey Ivanov, scours the world for unique perspectives on wine and the stories it tells. For us, wine represents a culmination of our shared human experience through the ages. We seek to tell that story in an approachable but thoughtful way by venturing to the planet's most beautiful and least trodden wine regions. Join the club & start your journey!
                             </p>
                         </div>
