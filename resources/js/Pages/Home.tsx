@@ -13,7 +13,7 @@ export default function Home(props) {
         >
             <Head title={title} />
             <MainContentContainer>
-                <p>{title}</p>
+                <p>Bringing Hospitality to Fine Wine</p>
             </MainContentContainer>
         </MainLayout>
     );
