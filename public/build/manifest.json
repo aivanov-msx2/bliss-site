@@ -1,6 +1,6 @@
 {
   "resources/js/app.tsx": {
-    "file": "assets/app.57ef3688.js",
+    "file": "assets/app.80c356a6.js",
     "src": "resources/js/app.tsx",
     "isEntry": true,
     "dynamicImports": [
@@ -24,250 +24,250 @@
       "resources/js/Pages/Wines/Winery.tsx"
     ],
     "css": [
-      "assets/app.5c1c9091.css"
+      "assets/app.2f6f743a.css"
     ]
   },
   "resources/js/Pages/About.tsx": {
-    "file": "assets/About.4be409db.js",
+    "file": "assets/About.85c3c83c.js",
     "src": "resources/js/Pages/About.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_MainContentContainer.e680f88c.js",
+      "_MainContentContainer.46cc8d23.js",
       "resources/js/app.tsx",
-      "_ApplicationLogo.51400c29.js",
-      "_index.m.4e43c74a.js"
+      "_ApplicationLogo.01b68a22.js",
+      "_index.m.e4c708e9.js"
     ]
   },
-  "_MainContentContainer.e680f88c.js": {
-    "file": "assets/MainContentContainer.e680f88c.js",
+  "_MainContentContainer.46cc8d23.js": {
+    "file": "assets/MainContentContainer.46cc8d23.js",
     "imports": [
       "resources/js/app.tsx",
-      "_ApplicationLogo.51400c29.js",
-      "_index.m.4e43c74a.js"
+      "_ApplicationLogo.01b68a22.js",
+      "_index.m.e4c708e9.js"
     ]
   },
-  "_ApplicationLogo.51400c29.js": {
-    "file": "assets/ApplicationLogo.51400c29.js",
+  "_ApplicationLogo.01b68a22.js": {
+    "file": "assets/ApplicationLogo.01b68a22.js",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
-  "_index.m.4e43c74a.js": {
-    "file": "assets/index.m.4e43c74a.js",
+  "_index.m.e4c708e9.js": {
+    "file": "assets/index.m.e4c708e9.js",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
   "resources/js/Pages/Admin.tsx": {
-    "file": "assets/Admin.d0e93ccc.js",
+    "file": "assets/Admin.c8bc2cba.js",
     "src": "resources/js/Pages/Admin.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_ApplicationLogo.51400c29.js",
-      "_index.m.4e43c74a.js"
+      "_ApplicationLogo.01b68a22.js",
+      "_index.m.e4c708e9.js"
     ]
   },
   "resources/js/Pages/Auth/ConfirmPassword.tsx": {
-    "file": "assets/ConfirmPassword.d66f68e1.js",
+    "file": "assets/ConfirmPassword.7a0429bd.js",
     "src": "resources/js/Pages/Auth/ConfirmPassword.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_PrimaryButton.24f96340.js",
-      "_TextInput.a2fb45b2.js",
-      "_InputLabel.160e2485.js",
-      "_ApplicationLogo.51400c29.js"
+      "_PrimaryButton.3555a41b.js",
+      "_TextInput.1236ff53.js",
+      "_InputLabel.f536abb2.js",
+      "_ApplicationLogo.01b68a22.js"
     ]
   },
-  "_PrimaryButton.24f96340.js": {
-    "file": "assets/PrimaryButton.24f96340.js",
+  "_PrimaryButton.3555a41b.js": {
+    "file": "assets/PrimaryButton.3555a41b.js",
     "imports": [
-      "_ApplicationLogo.51400c29.js",
+      "_ApplicationLogo.01b68a22.js",
       "resources/js/app.tsx"
     ]
   },
-  "_TextInput.a2fb45b2.js": {
-    "file": "assets/TextInput.a2fb45b2.js",
+  "_TextInput.1236ff53.js": {
+    "file": "assets/TextInput.1236ff53.js",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
-  "_InputLabel.160e2485.js": {
-    "file": "assets/InputLabel.160e2485.js",
+  "_InputLabel.f536abb2.js": {
+    "file": "assets/InputLabel.f536abb2.js",
     "imports": [
       "resources/js/app.tsx"
     ]
   },
   "resources/js/Pages/Auth/ForgotPassword.tsx": {
-    "file": "assets/ForgotPassword.2ae26958.js",
+    "file": "assets/ForgotPassword.a8bf73fd.js",
     "src": "resources/js/Pages/Auth/ForgotPassword.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_PrimaryButton.24f96340.js",
-      "_TextInput.a2fb45b2.js",
+      "_PrimaryButton.3555a41b.js",
+      "_TextInput.1236ff53.js",
       "resources/js/app.tsx",
-      "_ApplicationLogo.51400c29.js"
+      "_ApplicationLogo.01b68a22.js"
     ]
   },
   "resources/js/Pages/Auth/Login.tsx": {
-    "file": "assets/Login.81d2261d.js",
+    "file": "assets/Login.32f86bbf.js",
     "src": "resources/js/Pages/Auth/Login.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_PrimaryButton.24f96340.js",
-      "_TextInput.a2fb45b2.js",
-      "_InputLabel.160e2485.js",
-      "_ApplicationLogo.51400c29.js"
+      "_PrimaryButton.3555a41b.js",
+      "_TextInput.1236ff53.js",
+      "_InputLabel.f536abb2.js",
+      "_ApplicationLogo.01b68a22.js"
     ]
   },
   "resources/js/Pages/Auth/Register.tsx": {
-    "file": "assets/Register.77250910.js",
+    "file": "assets/Register.d9584b3f.js",
     "src": "resources/js/Pages/Auth/Register.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_PrimaryButton.24f96340.js",
-      "_TextInput.a2fb45b2.js",
-      "_InputLabel.160e2485.js",
-      "_ApplicationLogo.51400c29.js"
+      "_PrimaryButton.3555a41b.js",
+      "_TextInput.1236ff53.js",
+      "_InputLabel.f536abb2.js",
+      "_ApplicationLogo.01b68a22.js"
     ]
   },
   "resources/js/Pages/Auth/ResetPassword.tsx": {
-    "file": "assets/ResetPassword.54afacae.js",
+    "file": "assets/ResetPassword.a7057183.js",
     "src": "resources/js/Pages/Auth/ResetPassword.tsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.tsx",
-      "_PrimaryButton.24f96340.js",
-      "_TextInput.a2fb45b2.js",
-      "_InputLabel.160e2485.js",
-      "_ApplicationLogo.51400c29.js"
+      "_PrimaryButton.3555a41b.js",
+      "_TextInput.1236ff53.js",
+      "_InputLabel.f536abb2.js",
+      "_ApplicationLogo.01b68a22.js"
     ]
   },
   "resources/js/Pages/Auth/VerifyEmail.tsx": {
-    "file": "assets/VerifyEmail.4dd9ff67.js",
+    "file": "assets/VerifyEmail.08db33db.js",
     "src": "resources/js/Pages/Auth/VerifyEmail.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_PrimaryButton.24f96340.js",
+      "_PrimaryButton.3555a41b.js",
       "resources/js/app.tsx",
-      "_ApplicationLogo.51400c29.js"
+      "_ApplicationLogo.01b68a22.js"
     ]
   },
   "resources/js/Pages/Contact.tsx": {
-    "file": "assets/Contact.efa51d56.js",
+    "file": "assets/Contact.fac5eb6b.js",
     "src": "resources/js/Pages/Contact.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_MainContentContainer.e680f88c.js",
+      "_MainContentContainer.46cc8d23.js",
       "resources/js/app.tsx",
-      "_ApplicationLogo.51400c29.js",
-      "_index.m.4e43c74a.js"
+      "_ApplicationLogo.01b68a22.js",
+      "_index.m.e4c708e9.js"
     ]
   },
   "resources/js/Pages/Home.tsx": {
-    "file": "assets/Home.866edd01.js",
+    "file": "assets/Home.029a346a.js",
     "src": "resources/js/Pages/Home.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_MainContentContainer.e680f88c.js",
+      "_MainContentContainer.46cc8d23.js",
       "resources/js/app.tsx",
-      "_ApplicationLogo.51400c29.js",
-      "_index.m.4e43c74a.js"
+      "_ApplicationLogo.01b68a22.js",
+      "_index.m.e4c708e9.js"
     ]
   },
   "resources/js/Pages/Privacy.tsx": {
-    "file": "assets/Privacy.27527741.js",
+    "file": "assets/Privacy.206b6032.js",
     "src": "resources/js/Pages/Privacy.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_MainContentContainer.e680f88c.js",
+      "_MainContentContainer.46cc8d23.js",
       "resources/js/app.tsx",
-      "_ApplicationLogo.51400c29.js",
-      "_index.m.4e43c74a.js"
+      "_ApplicationLogo.01b68a22.js",
+      "_index.m.e4c708e9.js"
     ]
   },
   "resources/js/Pages/Terms.tsx": {
-    "file": "assets/Terms.f754aaf1.js",
+    "file": "assets/Terms.00354199.js",
     "src": "resources/js/Pages/Terms.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_MainContentContainer.e680f88c.js",
+      "_MainContentContainer.46cc8d23.js",
       "resources/js/app.tsx",
-      "_ApplicationLogo.51400c29.js",
-      "_index.m.4e43c74a.js"
+      "_ApplicationLogo.01b68a22.js",
+      "_index.m.e4c708e9.js"
     ]
   },
   "resources/js/Pages/Wholesale.tsx": {
-    "file": "assets/Wholesale.71a22cbb.js",
+    "file": "assets/Wholesale.11e312a0.js",
     "src": "resources/js/Pages/Wholesale.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_MainContentContainer.e680f88c.js",
+      "_MainContentContainer.46cc8d23.js",
       "resources/js/app.tsx",
-      "_ApplicationLogo.51400c29.js",
-      "_index.m.4e43c74a.js"
+      "_ApplicationLogo.01b68a22.js",
+      "_index.m.e4c708e9.js"
     ]
   },
   "resources/js/Pages/WineClub.tsx": {
-    "file": "assets/WineClub.4f6b2635.js",
+    "file": "assets/WineClub.9e432219.js",
     "src": "resources/js/Pages/WineClub.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_MainContentContainer.e680f88c.js",
+      "_MainContentContainer.46cc8d23.js",
       "resources/js/app.tsx",
-      "_ApplicationLogo.51400c29.js",
-      "_index.m.4e43c74a.js"
+      "_ApplicationLogo.01b68a22.js",
+      "_index.m.e4c708e9.js"
     ]
   },
   "resources/js/Pages/Wines/Country.tsx": {
-    "file": "assets/Country.f4d7568b.js",
+    "file": "assets/Country.030133a0.js",
     "src": "resources/js/Pages/Wines/Country.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_MainContentContainer.e680f88c.js",
+      "_MainContentContainer.46cc8d23.js",
       "resources/js/app.tsx",
-      "_ApplicationLogo.51400c29.js",
-      "_index.m.4e43c74a.js"
+      "_ApplicationLogo.01b68a22.js",
+      "_index.m.e4c708e9.js"
     ]
   },
   "resources/js/Pages/Wines/Index.tsx": {
-    "file": "assets/Index.2f55fcb7.js",
+    "file": "assets/Index.94f9fb37.js",
     "src": "resources/js/Pages/Wines/Index.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_MainContentContainer.e680f88c.js",
+      "_MainContentContainer.46cc8d23.js",
       "resources/js/app.tsx",
-      "_ApplicationLogo.51400c29.js",
-      "_index.m.4e43c74a.js"
+      "_ApplicationLogo.01b68a22.js",
+      "_index.m.e4c708e9.js"
     ]
   },
   "resources/js/Pages/Wines/Wine.tsx": {
-    "file": "assets/Wine.ef3a8abd.js",
+    "file": "assets/Wine.6e63ba1d.js",
     "src": "resources/js/Pages/Wines/Wine.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_MainContentContainer.e680f88c.js",
+      "_MainContentContainer.46cc8d23.js",
       "resources/js/app.tsx",
-      "_index.m.4e43c74a.js",
-      "_ApplicationLogo.51400c29.js"
+      "_index.m.e4c708e9.js",
+      "_ApplicationLogo.01b68a22.js"
     ]
   },
   "resources/js/Pages/Wines/Winery.tsx": {
-    "file": "assets/Winery.578e75ee.js",
+    "file": "assets/Winery.cf884c7d.js",
     "src": "resources/js/Pages/Wines/Winery.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_MainContentContainer.e680f88c.js",
+      "_MainContentContainer.46cc8d23.js",
       "resources/js/app.tsx",
-      "_ApplicationLogo.51400c29.js",
-      "_index.m.4e43c74a.js"
+      "_ApplicationLogo.01b68a22.js",
+      "_index.m.e4c708e9.js"
     ]
   },
   "resources/js/app.css": {
-    "file": "assets/app.5c1c9091.css",
+    "file": "assets/app.2f6f743a.css",
     "src": "resources/js/app.css"
   }
 }
