@@ -1,1 +1,0 @@
-import{M as t,a as e}from"./MainContentContainer.ff35fe93.js";import{j as n,a,H as o}from"./app.e3405f15.js";import"./ApplicationLogo.3da1d58d.js";import"./index.m.d1b05b4a.js";function c(s){const r="Terms";return n(t,{header:r,children:[a(o,{title:r}),a(e,{children:a("p",{children:r})})]})}export{c as default};
