@@ -138,20 +138,12 @@ export default function MainLayout({
                         >
                             Wholesale
                         </ResponsiveNavLink>
-                        <ResponsiveNavLink
-                            href={route("wineclub")}
-                            active={route().current("wineclub")}
-                        >
+                        <a href="https://store.blisswineconcierge.com/Wine-Club" className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-base font-medium leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
                             Wine Club
-                        </ResponsiveNavLink>
-                    </div>
-
-                    <div className="pt-4 pb-1 border-t border-gray-200">
-                        <div className="mt-3 space-y-1">
-                            <ResponsiveNavLink href={route("contact")}>
-                                Contact
-                            </ResponsiveNavLink>
-                        </div>
+                        </a>
+                        <a href="https://store.blisswineconcierge.com/store" className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-base font-medium leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
+                           Store 
+                        </a>
                     </div>
                 </div>
             </nav>
