@@ -16,11 +16,11 @@ export default function Home(props) {
                 <p>Bringing Hospitality to Fine Wine</p>
                 <div className="sm:px-6 lg:px-8">
                     <div className="sm:px-6 lg:px-8">
-                        <h4><a href="https://store.blisswineconcierge.com/clubs/Member-Monthly-Membership" target="_blank" /><img alt="" src="https://store.blisswineconcierge.com/assets/client/Image/CapturadePantalla2023-03-11alas21.09.07.png"></img></h4>
+                        <h4><a href="https://store.blisswineconcierge.com/clubs/Member-Monthly-Membership" target="_blank"><img alt="" src="https://store.blisswineconcierge.com/assets/client/Image/CapturadePantalla2023-03-11alas21.09.07.png" /></a></h4>
                     </div>
 
                     <div className="sm:px-6 lg:px-8">
-                        <h4><a href="/Wines/Browse-by-Country/Australia/Castagna"/><img alt="" src="https://store.blisswineconcierge.com/assets/client/Image/CapturadePantalla2023-03-11alas21.09.30.png"/></h4>
+                        <h4><a href="/Wines/Browse-by-Country/Australia/Castagna"><img alt="" src="https://store.blisswineconcierge.com/assets/client/Image/CapturadePantalla2023-03-11alas21.09.30.png"/></a></h4>
                     </div>
                 </div>
             </MainContentContainer>
