@@ -1,0 +1,1 @@
+import{M as r,a as t}from"./MainContentContainer.ba7c1209.js";import{j as e,a as n,H as i}from"./app.cf36b5fc.js";import"./ApplicationLogo.bd0eb7fc.js";import"./index.m.32c77c3f.js";function m(o){const a="Wine Club";return e(r,{header:a,children:[n(i,{title:a}),n(t,{children:n("p",{children:a})})]})}export{m as default};
