@@ -17,7 +17,7 @@ export default function Footer() {
                                     href={route("wines.index")}
                                     className={linkClasses}
                                 >
-                                    Wines
+                                    Wineries
                                 </Link>
                             </li>
                             <li className={liClasses}>

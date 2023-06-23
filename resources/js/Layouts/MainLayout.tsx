@@ -53,7 +53,7 @@ export default function MainLayout({
                                     href={route("wines.index")}
                                     active={route().current("wines.index")}
                                 >
-                                    Wines
+                                    Wineries
                                 </NavLink>
                                 <NavLink
                                     href={route("wholesale")}
