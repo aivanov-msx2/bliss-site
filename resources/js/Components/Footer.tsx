@@ -21,12 +21,18 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li className={liClasses}>
-                                <Link
-                                    href={route("wineclub")}
+                                <a href="https://store.blisswineconcierge.com/Wine-Club"
                                     className={linkClasses}
                                 >
                                     Wine Club
-                                </Link>
+                                </a>
+                            </li>
+                            <li className={liClasses}>
+                                <a href="https://store.blisswineconcierge.com/Travel-Club"
+                                    className={linkClasses}
+                                >
+                                    Travel Club
+                                </a>
                             </li>
                             <li className={liClasses}>
                                 <Link

@@ -20,7 +20,7 @@ export default function Home(props) {
                     </div>
 
                     <div className="sm:px-6 lg:px-8">
-                        <h4><a href="https://store.blisswineconcierge.com/Wines/Browse-by-Country/Austria/Schloss-Maissau"><img alt="" src="https://store.blisswineconcierge.com/assets/client/Image/CapturadePantalla2023-03-11alas21.09.30.png"/></a></h4>
+                        <h4><a href="https://store.blisswineconcierge.com/Wines/Browse-by-Country/Australia/LEKO"><img alt="" src="https://store.blisswineconcierge.com/assets/client/Image/CapturadePantalla2023-03-11alas21.09.30.png"/></a></h4>
                     </div>
                 </div>
             </MainContentContainer>
