@@ -14,7 +14,6 @@ use Excel;
 
 class CsvController extends Controller
 {
-
     /**
      * Download a CSV file of all Wines
      *
@@ -23,21 +22,16 @@ class CsvController extends Controller
     public function csvWineDownload()
     {
         try {
-
             $filename = "wines-" . date('Ymdhi') . ".csv";
+            Log::info("Starting CSV download: " . $filename);
 
-            return (new WinesExport)->download($filename);
-
-       
+            $export = new WinesExport;
+            return $export->download($filename);
         } catch (\Exception $error) {
+            Log::error("Error generating csv file: " . $error->getMessage());
+            Log::error("Stack trace: " . $error->getTraceAsString());
 
-            dd($error);
-
-            Log::info("Error generating csv file: ");
-            Log::info($error);
-
-            return redirect()->back()->with('error', 'Sorry, there was an error generating the file. Check logs for details.');
-
+            return redirect()->back()->with('error', 'Sorry, there was an error generating the file. Please try again later.');
         }
     }
 
@@ -49,19 +43,23 @@ class CsvController extends Controller
     public function csvWineUpload(Request $request)
     {
         try {
+            $file = $request->file('csv');
+            
+            if (!$file) {
+                throw new \Exception('No file was uploaded.');
+            }
 
-            Excel::import(new WinesImport, request()->file('csv'));
+            Log::info("Starting CSV import for file: " . $file->getClientOriginalName());
 
+            Excel::import(new WinesImport, $file);
+
+            Log::info("CSV import completed successfully.");
             return redirect()->back()->with('message', 'Wines updated successfully');
-       
         } catch (\Exception $error) {
+            Log::error("Error uploading csv file: " . $error->getMessage());
+            Log::error("Stack trace: " . $error->getTraceAsString());
 
-            dd($error);
-            Log::info("Error uploading csv file: ");
-            Log::info($error);
-
-            return redirect()->back()->with('error', 'Sorry, there was an error uploading the file. Check logs for details.');
-
+            return redirect()->back()->with('error', 'Sorry, there was an error uploading the file. Please check the file format and try again.');
         }
     }
 
@@ -73,20 +71,14 @@ class CsvController extends Controller
     public function csvPricesDownload()
     {
         try {
-
             $filename = "prices-" . date('Ymdhi') . ".csv";
             
             return (new WinePricesExport)->download($filename);
-       
         } catch (\Exception $error) {
-
-            dd($error);
-
-            Log::info("Error generating csv file: ");
-            Log::info($error);
+            Log::error("Error generating csv file: " . $error->getMessage());
+            Log::error("Stack trace: " . $error->getTraceAsString());
 
             return redirect()->back()->with('error', 'Sorry, there was an error generating the file. Check logs for details.');
-
         }
     }
 
@@ -98,24 +90,17 @@ class CsvController extends Controller
     public function csvPricesUpload(Request $request)
     {
         try {
-
             Excel::import(new WinePricesImport, request()->file('csv'));
 
             return redirect()->back()->with('message', 'Prices updated successfully');
-       
         } catch (\Exception $error) {
-
-            dd($error);
-            Log::info("Error uploading csv file: ");
-            Log::info($error);
+            Log::error("Error uploading csv file: " . $error->getMessage());
+            Log::error("Stack trace: " . $error->getTraceAsString());
 
             return redirect()->back()->with('error', 'Sorry, there was an error uploading the file. Check logs for details.');
-
         }
     }
    
-
-
     /**
      * Download a CSV file of eCommerce Inventory
      *
@@ -124,21 +109,14 @@ class CsvController extends Controller
     public function csvECommerceDownload()
     {
         try {
-
             $filename = "ecommerce-inventory-" . date('Ymdhi') . ".csv";
             
             return (new EcommerceExport)->download($filename);
-       
         } catch (\Exception $error) {
-
-            dd($error);
-
-            Log::info("Error generating csv file: ");
-            Log::info($error);
+            Log::error("Error generating csv file: " . $error->getMessage());
+            Log::error("Stack trace: " . $error->getTraceAsString());
 
             return redirect()->back()->with('error', 'Sorry, there was an error generating the file. Check logs for details.');
-
         }
     }
-
 }
